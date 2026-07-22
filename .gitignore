@@ -1,0 +1,77 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE/editor
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python environments and packaging
+.venv/
+.uv-cache/
+venv/
+env/
+.Python
+.python-version
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/node_modules.broken-*/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Local model weights and generated artifacts
+backend/models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Local databases and generated documents
+*.db
+*.sqlite
+*.sqlite3
+*.docx
+
+# Archives copied from course materials
+frontend.zip
